@@ -1,0 +1,367 @@
+.navbarprop{
+    margin: 0px  50px  0 50px;
+    width: 90%;
+    box-shadow:  0 6px 24px 0 rgba(0, 0, 0, 0.952);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(161, 161, 161));
+    position: fixed;
+    top: 12px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.navbar-nav{
+   
+    width: 100%;
+}
+.nav-item{
+    
+    margin: 20px 4%;
+    width: 100%;
+  
+}
+
+.logo{
+    padding: 10px 0 1px 0;
+    margin: 0 4% ;
+    width: 80px;
+    height: 100px;
+}
+
+
+
+.nav-link{
+    margin: 20px 4%; 
+    width: 100%;
+    size: 100%;
+}
+
+
+
+.carousel-inner{
+    z-index: -1;
+}
+
+
+.bodycontacto{
+    background-color: black;
+}
+
+.portadaindex{
+    margin-top: -400px;
+    color: white;
+}
+
+.dreearg{
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0px 0 30px 0
+   
+}
+
+.academiapasion{
+    width: auto;
+    font-family:Arial, Helvetica, sans-serif; 
+    margin: 0 0 80px 100px;  
+}
+
+.infoportada{
+    width: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 20px 20px 50px 20px;
+}
+
+.form-register{
+    width: 450px;
+    background-color: rgb(168, 21, 21);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow:  0 6px 24px 0 rgba(14, 109, 50, 0.952);
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: rgb(168, 21, 21);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(255, 115, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px; 
+    box-shadow:  0 6px 24px 0 rgba(0, 0, 0, 0.952);
+}   
+  
+.form-register h4{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    
+}  
+.form-register .btn{
+    width: 100%;
+    box-shadow:  0 6px 24px 0 rgba(1, 5, 2, 0.432);
+    background: rgba(145, 14, 14, 0.74);
+    border:none;
+    padding: 12px;
+    color: rgb(189, 189, 189);
+    margin: 16px 0;
+    font-size: 18px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    gap: 5px;
+}
+
+.grid-item{
+    border-radius: 5px;
+}
+
+.grid1{
+    grid-row: 1/3;
+}
+
+.grid1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid2{
+    grid-row: 1/3;
+    grid-column: 2/4;
+}
+
+.grid2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid3{
+    grid-row: 3/5;
+    grid-column: 1/3;
+}
+
+.grid3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid4{
+    grid-row: 3/5;
+    
+}
+
+.grid4 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.grid-container-index{
+    box-shadow:  0 6px 24px 0 rgba(177, 175, 175, 0.952);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(161, 161, 161));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 50px 100px;
+
+}
+
+.grid2-index h2{
+    display: flex;
+    justify-content: center;
+   color: red;
+   font-size: 18px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-bottom: 50px;
+}
+
+.grid2-index h3{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.grid2-index h4{
+    display: flex;
+    justify-content: right;
+    margin-top: auto;
+   color: brown;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px;
+}
+
+
+
+.grid1item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.card-container{
+    padding: 20px;
+    justify-content: center;
+}
+
+.card{
+    color: antiquewhite;
+    background-color: rgb(23, 27, 27);
+    margin: 10px;
+    padding: 0px;
+    box-shadow:  0 6px 24px 0 rgba(0, 0, 0, 0.952);
+
+}
+
+.card-novedades{
+    color: antiquewhite;
+    background-color: rgb(97, 21, 21);
+    margin: 10px;
+    padding: 0px;
+    box-shadow:  0 6px 24px 0 rgba(0, 0, 0, 0.952);
+
+}
+
+footer{
+    background-color: black;
+}
+
+footer h4{
+    font-size: 40px;
+    font-weight: 800
+}
+
+.iconos{
+    width: 35px ;
+}
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+.Copyright{
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px 80px 30px  80px;
+}
+  
+
+
+
+@media (max-width: 991px){
+    .logo{
+        width: 70px ;
+        height: 70px;
+        margin: 0 0 0 10%;
+
+    }
+    .nav-link{
+        margin: 1px 4%; 
+        width: 90%;
+        
+    }
+    .navbarprop{
+        width: 80%;
+        box-shadow:  0 6px 24px 0 rgba(255, 1, 1, 0.952);
+        background-image: linear-gradient(rgb(248, 47, 64), rgba(58, 38, 5, 0.973));
+    }
+
+    .form-register{
+        width: 380px;
+        background-color: rgb(168, 21, 21);
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-radius: 4px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        box-shadow:  0 6px 24px 0 rgba(14, 109, 50, 0.952);
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(8, 150px);
+        gap: 5px;
+    }
+    .grid1{
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+
+    .grid1 img{
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+
+    .grid2{
+        grid-column: 1/4;
+        grid-row: 3/5;
+    }
+
+    .grid3{
+        grid-column: 1/4;
+        grid-row: 5/7;
+
+    }
+
+    .grid4{
+        grid-column: 1/4;
+        grid-row: 7/9;
+        
+    }
+
+    .grid4 img{
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+
+    .grid-container-index{
+        box-shadow:  0 6px 24px 0 rgba(177, 175, 175, 0.952);
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(126, 123, 123));
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 600px auto;
+        margin: 50px 30px;
+    
+    }
+    .grid2-index{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    .grid1-index{
+        grid-column: 1/3;
+    }
+    
+
+    .mainimgindex{
+        height: 500px;
+    }
+
+
+}
